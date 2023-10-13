@@ -1,0 +1,78 @@
+<h1>{{title}}</h1>
+
+
+<mat-sidenav-container fullscreen>
+
+  <mat-sidenav #start>
+      <mat-nav-list (click)="start.close()">
+
+          <a mat-list-item routerLink="/">
+              <mat-icon>library_books</mat-icon>
+              <span> home</span>
+          </a>
+
+          <a mat-list-item routerLink="/contact">
+              <mat-icon>question_answer</mat-icon>
+              <span> contact</span>
+          </a>
+
+          <a mat-list-item routerLink="/about">
+            <mat-icon>question_answer</mat-icon>
+            <span> about</span>
+          </a>
+
+          <a mat-list-item routerLink="/profile">
+            <mat-icon>question_answer</mat-icon>
+            <span> Profiles</span>
+          </a>
+
+      </mat-nav-list>
+
+  </mat-sidenav>
+
+  <mat-toolbar color="primary">
+    <button mat-icon-button (click)="start.open('mouse')">
+        <mat-icon>menu</mat-icon>
+    </button>
+
+    <a mat-button routerLink="/">
+        <mat-icon color="warn" fontIcon="home"></mat-icon>
+            Home
+    </a>
+
+    <a mat-button [matMenuTriggerFor]="dropdown">
+        <mat-icon color="warn" fontIcon="library_books"></mat-icon>
+            Stories
+    </a>
+
+    <mat-menu #dropdown>
+
+        <button mat-menu-item routerLink="/architect"> The Architect </button>
+
+        <button mat-menu-item routerLink="/giants"> A Line in the Sand </button>
+
+        <button mat-menu-item routerLink="/agent"> Agent Chaos </button>
+
+        <button mat-menu-item routerLink="/testText"> testText </button>
+
+    </mat-menu>
+
+    <a mat-button routerLink="/profile">
+        <mat-icon color="warn" fontIcon="person"></mat-icon>
+        Profile
+    </a>
+
+    <a mat-button routerLink="/about">
+        <mat-icon color="warn" fontIcon="note"></mat-icon>
+        About
+    </a>  
+</mat-toolbar>
+
+
+  <div class="main-content">
+
+      <router-outlet></router-outlet>
+
+  </div>
+
+</mat-sidenav-container>

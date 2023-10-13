@@ -1,0 +1,21 @@
+<p>home works!</p>
+
+<a routerLink="/contact">Click Me</a>
+<router-outlet></router-outlet>
+
+<table>
+  <tr>
+    <th>userId</th>
+    <th>id</th>
+    <th>title</th>
+    <th>completed</th>
+  </tr>
+
+  <tr *ngFor="let user of userList">
+    <td *ngOnClick()>{{user.userId}}</td>
+    <td>{{user.id}}</td>
+    <td>{{user.title}}</td>
+    <td>{{user.completed}}</td>
+
+  </tr>
+</table>

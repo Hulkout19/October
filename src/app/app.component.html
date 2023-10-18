@@ -1,7 +1,5 @@
-<h1>{{title}}</h1>
 
-
-<mat-sidenav-container fullscreen>
+<div #entirescreen>
 
   
 
@@ -12,10 +10,16 @@
             Home
     </a>
 
+    <a mat-button routerLink="/experience">
+        <mat-icon color="warn" fontIcon="home"></mat-icon>
+            Home
+    </a>
+
     <a mat-button [matMenuTriggerFor]="dropdown">
         <mat-icon color="warn" fontIcon="library_books"></mat-icon>
             Stories
     </a>
+
 
     <mat-menu #dropdown>
 
@@ -47,5 +51,7 @@
 
   </div>
 
-</mat-sidenav-container>
-<app-footer></app-footer>
+<app-footer id="footer"></app-footer>
+
+</div>
+

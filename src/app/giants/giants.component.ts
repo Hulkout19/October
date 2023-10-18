@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class GiantsComponent {
   myImage:string = "app/bookcase.jpg"
+
+  myTitle = "A Line in the Sand"
+  subTitle = "Morgan Drew a Line"
 }

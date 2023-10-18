@@ -37,6 +37,7 @@ import { ArchitectComponent } from './architect/architect.component';
 import { GiantsComponent } from './giants/giants.component';
 import { AgentComponent } from './agent/agent.component';
 import { TestTextComponent } from './test-text/test-text.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -49,7 +50,8 @@ import { TestTextComponent } from './test-text/test-text.component';
     ArchitectComponent,
     GiantsComponent,
     AgentComponent,
-    TestTextComponent
+    TestTextComponent,
+    FooterComponent
   ],
   imports: [
     BrowserAnimationsModule,

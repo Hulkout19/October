@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./giants.component.css']
 })
 export class GiantsComponent {
-
+  myImage:string = "app/bookcase.jpg"
 }

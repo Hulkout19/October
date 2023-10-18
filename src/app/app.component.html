@@ -3,38 +3,10 @@
 
 <mat-sidenav-container fullscreen>
 
-  <mat-sidenav #start>
-      <mat-nav-list (click)="start.close()">
-
-          <a mat-list-item routerLink="/">
-              <mat-icon>library_books</mat-icon>
-              <span> home</span>
-          </a>
-
-          <a mat-list-item routerLink="/contact">
-              <mat-icon>question_answer</mat-icon>
-              <span> contact</span>
-          </a>
-
-          <a mat-list-item routerLink="/about">
-            <mat-icon>question_answer</mat-icon>
-            <span> about</span>
-          </a>
-
-          <a mat-list-item routerLink="/profile">
-            <mat-icon>question_answer</mat-icon>
-            <span> Profiles</span>
-          </a>
-
-      </mat-nav-list>
-
-  </mat-sidenav>
+  
 
   <mat-toolbar color="primary">
-    <button mat-icon-button (click)="start.open('mouse')">
-        <mat-icon>menu</mat-icon>
-    </button>
-
+  
     <a mat-button routerLink="/">
         <mat-icon color="warn" fontIcon="home"></mat-icon>
             Home
@@ -76,3 +48,4 @@
   </div>
 
 </mat-sidenav-container>
+<app-footer></app-footer>

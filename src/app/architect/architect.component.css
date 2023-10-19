@@ -31,3 +31,12 @@ img {
 .brush{
     padding: 10px;
 }
+
+.bga {
+    background-color: blue;
+}
+
+.caption{
+    justify-content: right;
+}
+

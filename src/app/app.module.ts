@@ -38,6 +38,7 @@ import { GiantsComponent } from './giants/giants.component';
 import { AgentComponent } from './agent/agent.component';
 import { TestTextComponent } from './test-text/test-text.component';
 import { FooterComponent } from './footer/footer.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 
 @NgModule({
@@ -51,7 +52,8 @@ import { FooterComponent } from './footer/footer.component';
     GiantsComponent,
     AgentComponent,
     TestTextComponent,
-    FooterComponent
+    FooterComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserAnimationsModule,

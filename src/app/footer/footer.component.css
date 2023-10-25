@@ -2,10 +2,11 @@ body {
     background-color: rgb(233, 218, 199);
     padding: 20px;
     margin: 0;
-    height: 100px;
+    height: 150px;
     opacity: 0.5;
     border: 2.5px solid;
     border-color: antiquewhite;
+    bottom: 0;
 }
 
 .footBar{

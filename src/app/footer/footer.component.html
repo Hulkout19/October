@@ -1,15 +1,19 @@
 <body>
-    <mat-toolbar #footBar>
-  
-        <a mat-button routerLink="/">
-            <mat-icon color="warn" fontIcon="home"></mat-icon>
-                Home
-        </a>
+    <table>
+        <tr>
+        <td>
+            <a mat-button routerLink="/">
+                
+                    Home
+            </a>
+        </td>
     
-        <a mat-button [matMenuTriggerFor]="dropdown">
-            <mat-icon color="warn" fontIcon="library_books"></mat-icon>
-                Stories
-        </a>
+        <td>
+            <a mat-button [matMenuTriggerFor]="dropdown">
+                
+                    Stories
+            </a>
+        </td>
     
         <mat-menu #dropdown>
     
@@ -23,14 +27,31 @@
     
         </mat-menu>
     
-        <a mat-button routerLink="/profile">
-            <mat-icon color="warn" fontIcon="person"></mat-icon>
-            Profile
-        </a>
+        <td>
+            <a mat-button routerLink="/profile">
+                
+                Profile
+            </a>
+        </td>
     
-        <a mat-button routerLink="/about">
-            <mat-icon color="warn" fontIcon="note"></mat-icon>
-            About
-        </a>  
-    </mat-toolbar>
+        <td>
+            <a mat-button routerLink="/about">
+                
+                About
+            </a>  
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+
+        </td>
+        <td>
+            <p>Architect</p>
+            <p>Giants</p>
+            <p>Agents</p>
+        </td>
+        
+    </tr>
+    </table>
 </body>

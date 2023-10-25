@@ -9,6 +9,8 @@ import { GiantsComponent } from './giants/giants.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { TestTextComponent } from './test-text/test-text.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { StoryCardComponent } from './story-card/story-card.component';
 
 const routes: Routes = [
   {
@@ -42,6 +44,14 @@ const routes: Routes = [
   {
     path: 'testText',
     component: TestTextComponent
+  },
+  {
+    path: 'experience',
+    component: ExperienceComponent
+  },
+  {
+    path: 'story-card',
+    component: StoryCardComponent
   }
 
 ];

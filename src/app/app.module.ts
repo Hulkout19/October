@@ -39,6 +39,7 @@ import { AgentComponent } from './agent/agent.component';
 import { TestTextComponent } from './test-text/test-text.component';
 import { FooterComponent } from './footer/footer.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { StoryCardComponent } from './story-card/story-card.component';
 
 
 @NgModule({

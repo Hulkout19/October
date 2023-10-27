@@ -3,7 +3,7 @@ export const STORY: any = [
         id: 1,
         title: "Designing Plans",
         description: "A story about an architect",
-        iconURL: "/assets/bookcase.jpg",
+        iconUrl: "/assets/bookcase.jpg",
         active: true,
         storyUrl: "/architect"
     },
@@ -11,7 +11,7 @@ export const STORY: any = [
         id: 2,
         title: "A Line in the Sand",
         description: "A story about an giant",
-        iconURL: "/assets/Arizona.jpg",
+        iconUrl: "/assets/Arizona.jpg",
         active: true,
         storyUrl: "/giants"
     },
@@ -19,7 +19,7 @@ export const STORY: any = [
         id: 3,
         title: "Agent Chaos",
         description: "A story about an agent",
-        iconURL: "/assets/bookcase.jpg",
+        iconUrl: "/assets/kitchen.jpg",
         active: true,
         storyUrl: "/agent"
     },

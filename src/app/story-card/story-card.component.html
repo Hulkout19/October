@@ -1,29 +1,27 @@
 <ng-container *ngFor="let tale of story; index as i">
-    <mat-card class="course-card">
-        <mat-card-header>
 
-            <mat-card-title>
-                <title>
-                    {{tale.title}}
-                </title>
-            </mat-card-title>
+    <div>
+        <p> </p>
+    </div>
 
-        </mat-card-header>
+    <mat-card class="course-card" routerLink="/architect">
 
-        <img mat-card-image select="story-image" [src]="tale.iconUrl">
+        <img mat-card-image select="story-image" [src]="tale.iconUrl" >
 
         <mat-card-content>
 
-            <p>
+            <p #description >
                 {{tale.description}}
             </p>
         </mat-card-content>
 
-        <mat-card-actions class="course-actions">
+        <!-- <mat-card-actions class="course-actions">
 
             <button mat-raised-button color="primary">View Story</button>
 
-        </mat-card-actions>
+        </mat-card-actions> -->
 
     </mat-card>
+
+    
 </ng-container>

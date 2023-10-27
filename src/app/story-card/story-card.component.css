@@ -1,7 +1,14 @@
 .course-card {
-    margin: 20px 10px;
+    margin: auto;
+    width: 500px;
+    cursor: pointer; 
 }
 
 .course-actions {
     text-align: center;
+}
+
+p{
+    text-align: center;
+    
 }

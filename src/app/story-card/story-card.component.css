@@ -1,7 +1,6 @@
 .course-card {
     margin: auto;
     width: 500px;
-    cursor: pointer; 
 }
 
 .course-actions {
@@ -11,4 +10,13 @@
 p{
     text-align: center;
     
+}
+
+button{
+    cursor: pointer;
+    
+}
+
+mat-card-actions{
+    margin: auto;
 }

@@ -15,7 +15,12 @@
             Experience
     </a>
 
-    <a mat-button [matMenuTriggerFor]="dropdown">
+    <a mat-button routerLink="/story-card">
+        <mat-icon color="warn" fontIcon="person"></mat-icon>
+        Stories
+    </a>
+
+    <!-- <a mat-button [matMenuTriggerFor]="dropdown">
         <mat-icon color="warn" fontIcon="library_books"></mat-icon>
             Stories
     </a>
@@ -31,12 +36,12 @@
 
         <button mat-menu-item routerLink="/testText"> testText </button>
 
-    </mat-menu>
+    </mat-menu> -->
 
-    <a mat-button routerLink="/profile">
+    <!-- <a mat-button routerLink="/profile">
         <mat-icon color="warn" fontIcon="person"></mat-icon>
         Profile
-    </a>
+    </a> -->
 
     <a mat-button routerLink="/about">
         <mat-icon color="warn" fontIcon="note"></mat-icon>

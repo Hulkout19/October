@@ -40,6 +40,8 @@ import { TestTextComponent } from './test-text/test-text.component';
 import { FooterComponent } from './footer/footer.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { StoryCardComponent } from './story-card/story-card.component';
+import { StoriesListComponent } from './stories-list/stories-list.component';
+import { StoryImageComponent } from './story-image/story-image.component';
 
 
 @NgModule({
@@ -54,7 +56,9 @@ import { StoryCardComponent } from './story-card/story-card.component';
     AgentComponent,
     TestTextComponent,
     FooterComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    StoriesListComponent,
+    StoryImageComponent
   ],
   imports: [
     BrowserAnimationsModule,

@@ -7,13 +7,18 @@
                     Home
             </a>
         </td>
-    
-        <td>
-            <a mat-button [matMenuTriggerFor]="dropdown">
-                
-                    Stories
+    <td>
+        
+            <a mat-button routerLink="/story-card">
+                Stories
             </a>
-        </td>
+    </td>
+    
+        <!-- <a mat-button [matMenuTriggerFor]="dropdown">
+            <mat-icon color="warn" fontIcon="library_books"></mat-icon>
+                Stories
+        </a>
+    
     
         <mat-menu #dropdown>
     
@@ -25,7 +30,7 @@
     
             <button mat-menu-item routerLink="/testText"> testText </button>
     
-        </mat-menu>
+        </mat-menu> -->
     
         <td>
             <a mat-button routerLink="/profile">

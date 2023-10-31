@@ -1,6 +1,11 @@
 .course-card {
     margin: auto;
     width: 500px;
+    
+}
+
+.contain {
+    box-shadow: 70px;
 }
 
 .course-actions {
@@ -19,4 +24,11 @@ button{
 
 mat-card-actions{
     margin: auto;
+}
+
+.pageTitle{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: gold;
 }

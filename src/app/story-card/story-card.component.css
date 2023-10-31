@@ -1,7 +1,11 @@
 .course-card {
     margin: auto;
     width: 500px;
-    cursor: pointer; 
+    
+}
+
+.contain {
+    box-shadow: 70px;
 }
 
 .course-actions {
@@ -11,4 +15,20 @@
 p{
     text-align: center;
     
+}
+
+button{
+    cursor: pointer;
+    
+}
+
+mat-card-actions{
+    margin: auto;
+}
+
+.pageTitle{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: gold;
 }

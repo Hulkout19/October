@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+// @ts-ignore
+import Typewriter from 't-writer.js';
 
 @Component({
   selector: 'app-home',
@@ -18,6 +20,69 @@ export class HomeComponent {
   ngOnInit(): void
   {
     this.getUserList()
+    const target = document.querySelector('.introP');
+
+    const writer = new Typewriter(target, {
+      loop: false,
+      typeSpeed: 80,
+      deleteSpeed: 80,
+      typeColor: 'red'
+    })
+    const target2 = document.querySelector('.tw');
+
+    const writer2 = new Typewriter(target2, {
+      loop: false,
+      typeSpeed: 80,
+      deleteSpeed: 80,
+      typeColor: 'red'
+    })
+
+    const target3 = document.querySelector('.introSkills');
+
+    const writer3 = new Typewriter(target2, {
+      loop: true,
+      typeSpeed: 80,
+      deleteSpeed: 80,
+      typeColor: 'red'
+    })
+    
+    writer
+      .type('Hi! ')
+      .rest(500)
+      .type('My name is Sven Broman!')
+      .rest(5000)
+      .start()
+
+    writer2
+      .rest(5000)
+      .type('Some of my skills include: ')
+      .rest(2500)
+      .type('.net')
+      .rest(1000)
+      .changeOps({ deleteSpeed: 80 })
+      .remove(4)
+      .type('sql')
+      .rest(1000)
+      .remove(3)
+      .type('python')
+      .rest(500)
+      .changeOps({ deleteSpeed: 20 })
+      .remove(6)
+      .type('c#')
+      .rest(500)
+      .remove(2)
+      .clear()
+      .type('Check out my website!')
+      .rest(1000)
+      .clear()
+      .type('Go to the contact page to find ways to get in touch!')
+      .start()
+    
+   
+
+
+
+     
   }
 
   getUserList()

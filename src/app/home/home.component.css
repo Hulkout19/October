@@ -9,3 +9,12 @@ img{
     margin-left: 20px;
     border-radius: 2%;
 }
+
+th, td{
+    margin-left: 100px;
+    padding: 10px 10px 10px 30px;
+}
+
+.typewriter{
+    width: 300px;
+}

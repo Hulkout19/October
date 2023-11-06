@@ -1,0 +1,4 @@
+Subsequent Deploys:
+
+ng build --base-href https://hulkout19.github.io/October/
+ngh --dir=dist/red-october

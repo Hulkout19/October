@@ -37,14 +37,6 @@ export class HomeComponent {
       typeColor: 'red'
     })
 
-    const target3 = document.querySelector('.introSkills');
-
-    const writer3 = new Typewriter(target2, {
-      loop: true,
-      typeSpeed: 80,
-      deleteSpeed: 80,
-      typeColor: 'red'
-    })
     
     writer
       .type('Hi! ')
@@ -66,11 +58,13 @@ export class HomeComponent {
       .remove(3)
       .type('python')
       .rest(500)
-      .changeOps({ deleteSpeed: 20 })
       .remove(6)
       .type('c#')
       .rest(500)
       .remove(2)
+      .type('Assembly')
+      .rest(500)
+      .remove(8)
       .clear()
       .type('Check out my website!')
       .rest(1000)

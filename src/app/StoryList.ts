@@ -21,7 +21,7 @@ export const STORY: any = [
         description: "A story about an agent",
         iconUrl: "/October/assets/kitchen.jpg",
         active: true,
-        storyUrl: "/Ocobter/agent"
+        storyUrl: "/October/agent"
     },
     
 ]

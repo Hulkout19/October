@@ -5,7 +5,7 @@ export const STORY: any = [
         description: "A story about an architect",
         iconUrl: "/October/assets/bookcase.jpg",
         active: true,
-        storyUrl: "/architect"
+        storyUrl: "/October/architect"
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const STORY: any = [
         description: "A story about an giant",
         iconUrl: "/October/assets/Arizona.jpg",
         active: true,
-        storyUrl: "/giants"
+        storyUrl: "/October/giants"
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export const STORY: any = [
         description: "A story about an agent",
         iconUrl: "/October/assets/kitchen.jpg",
         active: true,
-        storyUrl: "/agent"
+        storyUrl: "/Ocobter/agent"
     },
     
 ]

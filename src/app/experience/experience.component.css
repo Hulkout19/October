@@ -6,3 +6,19 @@
     border-color: gray;
 
 }
+
+.Dementia{
+    background-color: aqua;
+    width: 550px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+.Nimrod{
+    width: 550px;
+}
+
+p{
+    margin-left: 10px;
+}

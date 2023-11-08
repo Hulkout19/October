@@ -18,3 +18,35 @@ th, td{
 .typewriter{
     width: 300px;
 }
+
+.Languages{
+    background-color: aqua;
+    width: auto;
+    height: 550px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    transition: transform .7s ease-in-out;
+}
+
+.logo:hover {
+    transform: rotateY(180deg);
+}
+
+.python-logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+

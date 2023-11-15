@@ -1,0 +1,10 @@
+p {
+    width: 100%;
+    max-width: 500px;
+}
+
+.backlog, th, td{
+    border-style: dashed;
+    border: 1px solid black;
+    
+}

@@ -44,6 +44,7 @@ import { StoriesListComponent } from './stories-list/stories-list.component';
 import { StoryImageComponent } from './story-image/story-image.component';
 // @ts-ignore
 import Typewriter from 't-writer.js';
+import { StatusComponent } from './status/status.component';
 
 
 
@@ -61,7 +62,8 @@ import Typewriter from 't-writer.js';
     FooterComponent,
     ExperienceComponent,
     StoriesListComponent,
-    StoryImageComponent
+    StoryImageComponent,
+    StatusComponent
   ],
   imports: [
     BrowserAnimationsModule,

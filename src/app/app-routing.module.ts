@@ -11,6 +11,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { TestTextComponent } from './test-text/test-text.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { StoryCardComponent } from './story-card/story-card.component';
+import { StatusComponent } from './status/status.component';
 
 const routes: Routes = [
   {
@@ -52,6 +53,10 @@ const routes: Routes = [
   {
     path: 'story-card',
     component: StoryCardComponent
+  },
+  {
+    path: 'status',
+    component: StatusComponent
   }
 
 ];

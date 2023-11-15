@@ -3,8 +3,14 @@ p {
     max-width: 500px;
 }
 
-.backlog, th, td{
+th, td{
     border-style: dashed;
     border: 1px solid black;
+    width: 4%;
+
+}
+tr{
+    max-width: 300px;
     
 }
+

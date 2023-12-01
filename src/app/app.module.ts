@@ -45,6 +45,8 @@ import { StoryImageComponent } from './story-image/story-image.component';
 // @ts-ignore
 import Typewriter from 't-writer.js';
 import { StatusComponent } from './status/status.component';
+// @ts-ignore
+import {MatGridListModule} from '@angular/material'
 
 
 
@@ -92,7 +94,8 @@ import { StatusComponent } from './status/status.component';
     MatCheckboxModule,
     MatStepperModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,32 +1,35 @@
-<p> </p>
-<mat-card class="pageTitle">
-    <h1>Stories</h1>
-</mat-card>
-
-<ng-container *ngFor="let tale of story; index as i" #contain>
-
-    <div>
-        <p> </p>
-    </div>
-
-    <mat-card class="course-card mat-elevation-z10">
-
-        <img mat-card-image select="story-image" [src]="tale.iconUrl" >
-
-        <mat-card-content>
-
-            <p #description >
-                {{tale.description}}
-            </p>
-        </mat-card-content>
-
-        <mat-card-actions class="course-actions">
-
-            <a [href]="tale.storyUrl"><button mat-raised-button color="primary">{{tale.title}}</button></a>
-            
-        </mat-card-actions>
-
+<body>
+    <p> </p>
+    <mat-card class="pageTitle">
+        <h1>Stories</h1>
     </mat-card>
-
     
-</ng-container>
+    <ng-container *ngFor="let tale of story; index as i" #contain>
+    
+        <div>
+            <p> </p>
+        </div>
+    
+        <mat-card class="course-card mat-elevation-z10">
+    
+            <img mat-card-image select="story-image" [src]="tale.iconUrl" >
+    
+            <mat-card-content>
+    
+                <p #description >
+                    {{tale.description}}
+                </p>
+            </mat-card-content>
+    
+            <mat-card-actions class="course-actions">
+    
+                <a [href]="tale.storyUrl"><button mat-raised-button color="primary">{{tale.title}}</button></a>
+                
+            </mat-card-actions>
+    
+        </mat-card>
+    
+        
+    </ng-container>
+    
+</body>

@@ -3,10 +3,15 @@ import { Component } from '@angular/core';
 // @ts-ignore
 import Typewriter from 't-writer.js';
 
+import { MatGridList, MatGridListModule } from '@angular/material/grid-list';
+
+
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+
 })
 export class HomeComponent {
   title = 'red-october from another mother';

@@ -1,6 +1,12 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 .course-card {
     margin: auto;
-    width: 500px;
+    width: 80%;
+    max-width: 500px;
     
 }
 

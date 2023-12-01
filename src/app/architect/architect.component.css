@@ -3,7 +3,7 @@
     margin: auto;
     width: 40%;
     padding: 10px;
-    
+    justify-content: center;
 }
 
 .story-title{
@@ -16,10 +16,11 @@
 }
 
 .image-holder{
-    width: 700px;
+    width: 110%;
     height: 500px;
     margin: auto;
     padding: 10px;
+    justify-content: center;
 }
 
 img {
@@ -39,4 +40,6 @@ img {
 .caption{
     justify-content: right;
 }
+
+
 

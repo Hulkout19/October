@@ -6,7 +6,9 @@
     overflow-x: hidden;
 }
 
-
+mat-toolbar{
+  width: 100%;
+}
 .main-content {
     padding-bottom: 2.5rem;    /* Footer height */
     position: relative;

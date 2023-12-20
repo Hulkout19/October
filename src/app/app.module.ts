@@ -46,7 +46,8 @@ import { StoryImageComponent } from './story-image/story-image.component';
 import Typewriter from 't-writer.js';
 import { StatusComponent } from './status/status.component';
 // @ts-ignore
-import {MatGridListModule} from '@angular/material'
+import {MatGridListModule} from '@angular/material';
+import { GalleryComponent } from './gallery/gallery.component'
 
 
 
@@ -65,7 +66,8 @@ import {MatGridListModule} from '@angular/material'
     ExperienceComponent,
     StoriesListComponent,
     StoryImageComponent,
-    StatusComponent
+    StatusComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserAnimationsModule,

@@ -12,6 +12,7 @@ import { TestTextComponent } from './test-text/test-text.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { StoryCardComponent } from './story-card/story-card.component';
 import { StatusComponent } from './status/status.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 const routes: Routes = [
   {
@@ -57,6 +58,10 @@ const routes: Routes = [
   {
     path: 'status',
     component: StatusComponent
+  },
+  {
+    path: 'gallery',
+    component: GalleryComponent
   }
 
 ];

@@ -1,0 +1,41 @@
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.course-card {
+    margin: auto;
+    width: 80%;
+    max-width: 500px;
+    
+}
+
+.contain {
+    box-shadow: 70px;
+    display: inline-block;
+}
+
+.course-actions {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    
+}
+
+button{
+    cursor: pointer;
+    
+}
+
+mat-card-actions{
+    margin: auto;
+}
+
+.pageTitle{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    background-color: gold;
+}

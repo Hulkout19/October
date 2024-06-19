@@ -1,8 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+p{
+    font-size: 16px;
+}
+
 body {
     background-color: rgb(233, 218, 199);
     padding: 20px;
     margin: 0;
-    height: 150px;
+    height: 170px;
     opacity: 0.5;
     border: 2.5px solid;
     border-color: antiquewhite;
@@ -18,4 +31,39 @@ body {
 .tableDiv{
     width: 100%;
     
+}
+
+p{
+    padding-left: 50px;
+}
+
+@media only screen and (min-width=375px) {
+
+
+    .wrapper {
+        width: 375px;
+    }
+
+    p{
+        padding-left: 10px; 
+        font-size: 2px;
+    }
+}
+
+@media only screen and (min-width=768px) {
+
+
+    .wrapper {
+        width: 375px;
+    }
+
+    p{
+        padding-left: 10px; 
+        font-size: 2px;
+    }
+
+    body {
+        background-color: rgb(64, 18, 232);
+        height: 225px;
+    }
 }

@@ -1,7 +1,25 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>My Book</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
 <div class="entirescreen">
 
   <mat-toolbar color="primary">
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div>
   
     <a mat-button routerLink="/">
         <mat-icon color="warn" fontIcon="home"></mat-icon>
@@ -43,6 +61,10 @@
         Profile
     </a>
 </mat-toolbar>
+
+<!-- <app-nav-bar>
+
+</app-nav-bar> -->
 
 
   <div class="main-content">

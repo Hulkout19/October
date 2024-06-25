@@ -2,11 +2,15 @@ mat-toolbar{
     width: 100%;
   }
 
+  #allButton{
+    display: none;
+  }
+
   /* Dropdown Button */
 .dropbtn {
     background-color: #3498DB;
     color: white;
-    padding: 16px;
+    padding: 10px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -48,9 +52,12 @@ mat-toolbar{
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
 
-  @media only screen and (width >= 768px) {
+  @media only screen and (width >= 600px) {
     .dropdown {
       display: none;
+    }
+    #allButton{
+        display: block;
     }
   }
     

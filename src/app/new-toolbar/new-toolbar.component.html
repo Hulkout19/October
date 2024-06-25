@@ -1,14 +1,14 @@
 <mat-toolbar color="primary">
 
     <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <button onclick="myFunction()" class="dropbtn"><mat-icon>list</mat-icon></button>
         <div id="myDropdown" class="dropdown-content">
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
         </div>
       </div>
-  
+  <div id="allButton">
     <a mat-button routerLink="/">
         <mat-icon color="warn" fontIcon="home"></mat-icon>
         Home
@@ -48,4 +48,5 @@
         <mat-icon color="warn" fontIcon="warning"></mat-icon>
         Profile
     </a>
+</div>
 </mat-toolbar>

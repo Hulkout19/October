@@ -1,3 +1,24 @@
+#parent{
+    width: 1000;
+    margin-top: 5%;
+}
+#child1{
+    float: left;
+    width: 33%;
+}
+#child2{
+    margin-top: 25%;
+    float: left;
+    width: 33%;
+}
+
+#child3{
+    float: right;
+    width: 33%;
+}
+
+
+
 body {
     width: auto;
     text-align: center;
@@ -16,11 +37,15 @@ th, td{
 
 }
 
-.typewriter{
+.td{
+    margin-right: 100px;
+}
+
+.child2{
     width: 300px;
 }
 
-.Languages{
+.child3{
     background-color: aqua;
     width: auto;
     height: 550px;

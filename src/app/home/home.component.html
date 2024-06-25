@@ -1,27 +1,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
   
-  <table>
-
-    <tr>
-
-      <td>
-        <img src="/October/assets/SvenHeadShot.PNG" alt="Sven Head Shot">
-      </td>
-      <td>
-        <p></p>
-      </td>
-      <td class="typewriter">
+  
+  <div id="parent">
+      <div id="child1">
+        <img src="/assets/SvenHeadShot.PNG" alt="Sven Head Shot">
+      </div>
+      
+      <div id="child2">
         <p class="introP"></p>
         <p class="tw"></p>
         <p class="introSkills"></p>
-      </td>
-      <td>
-        <p> </p>
-      </td>
-      <td>
+      </div>
+      
+      <div>
         <table>
-          <div class="Languages">
+          <div id="child3">
           <tr>
             <h2> //Languages </h2>
           </tr>
@@ -61,10 +55,8 @@
           </tr>
         </div>
         </table>
-      </td>
-    </tr>
-      
-  </table>
-  <router-outlet></router-outlet>
+      </div>
+
+    </div>
 </body>
 

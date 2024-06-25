@@ -48,7 +48,8 @@ import { StatusComponent } from './status/status.component';
 // @ts-ignore
 import {MatGridListModule} from '@angular/material';
 import { GalleryComponent } from './gallery/gallery.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component'
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { NewToolbarComponent } from './new-toolbar/new-toolbar.component'
 
 
 
@@ -69,7 +70,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component'
     StoryImageComponent,
     StatusComponent,
     GalleryComponent,
-    NavBarComponent
+    NavBarComponent,
+    NewToolbarComponent
   ],
   imports: [
     BrowserAnimationsModule,

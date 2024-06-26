@@ -13,6 +13,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { StoryCardComponent } from './story-card/story-card.component';
 import { StatusComponent } from './status/status.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { StoriesListComponent } from './stories-list/stories-list.component';
 
 const routes: Routes = [
   {
@@ -54,6 +55,10 @@ const routes: Routes = [
   {
     path: 'story-card',
     component: StoryCardComponent
+  },
+  {
+    path: 'stories-list',
+    component: StoriesListComponent
   },
   {
     path: 'status',

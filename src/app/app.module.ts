@@ -49,7 +49,8 @@ import { StatusComponent } from './status/status.component';
 import {MatGridListModule} from '@angular/material';
 import { GalleryComponent } from './gallery/gallery.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { NewToolbarComponent } from './new-toolbar/new-toolbar.component'
+import { NewToolbarComponent } from './new-toolbar/new-toolbar.component';
+import { ClickOutsideDirective } from './directivesFolder/click-outside.directive'
 
 
 
@@ -71,7 +72,8 @@ import { NewToolbarComponent } from './new-toolbar/new-toolbar.component'
     StatusComponent,
     GalleryComponent,
     NavBarComponent,
-    NewToolbarComponent
+    NewToolbarComponent,
+    ClickOutsideDirective
   ],
   imports: [
     BrowserAnimationsModule,

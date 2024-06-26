@@ -1,8 +1,35 @@
 <div class="menu-container" clickOutside (clickOutside)="clickedOutside()">
-    <div class="menu-toggler" (click)="toggleMenu()">Toggle Menu</div>
+    <div class="menu-toggler" (click)="toggleMenu()"><mat-icon>list</mat-icon></div>
     <div class="menu" *ngIf="isMenuOpened">
-        <div class="menu-item">News</div>
-        <div class="menu-item">News</div>
-        <div class="menu-item">News</div>
+        <div class="menu-item" (click)="toggleMenu()">
+            <a mat-button routerLink="/experience">
+            Experience
+            </a>
+        </div>
+        <div class="menu-item" (click)="toggleMenu()">
+            <a mat-button routerLink="/profile">
+            profile
+            </a>
+        </div>
+        <div class="menu-item" (click)="toggleMenu()">
+            <a mat-button routerLink="/">
+            home
+            </a>
+        </div>
+        <div class="menu-item" (click)="toggleMenu()">
+            <a mat-button routerLink="/experience">
+            Experience
+            </a>
+        </div>
+        <div class="menu-item" (click)="toggleMenu()">
+            <a mat-button routerLink="/profile">
+            profile
+            </a>
+        </div>
+        <div class="menu-item" (click)="toggleMenu()">
+            <a mat-button routerLink="/">
+            home
+            </a>
+        </div>
     </div>
 </div>

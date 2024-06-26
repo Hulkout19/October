@@ -1,25 +1,27 @@
+.bottomLine{
+    margin-top: 40px;
+}
+
 .textHolder {
     text-align: center;
     margin: auto;
-    width: 40%;
+    width: 800px;
     padding: 10px;
-    
+    justify-content: center;
 }
 
 .story-title{
     text-align: center;
     padding: 10px;
-    margin: auto;
+    margin-top: 50px;
     font-weight: 60px;
     font-size: 50px;
 
 }
 
 .image-holder{
-    width: 700px;
-    height: 500px;
-    margin: auto;
-    padding: 10px;
+    height: auto;
+    justify-content: center;
 }
 
 img {
@@ -36,11 +38,31 @@ img {
     background-color: blue;
 }
 
-.head {
-    font-style: italic;
-}
-
 .caption{
     justify-content: right;
 }
+@media only screen and (width < 815px) {
+    .textHolder {
+        width: 600px;
+    }
+
+    
+}
+
+@media only screen and (width < 600px) {
+    .textHolder {
+        width: 400px;
+    }
+    .story-title{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (width < 400) {
+    .textHolder {
+        width: 350px;
+    }
+}
+
+
 

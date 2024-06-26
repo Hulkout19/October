@@ -1,7 +1,11 @@
+.bottomLine{
+    margin-top: 40px;
+}
+
 .textHolder {
     text-align: center;
     margin: auto;
-    width: 40%;
+    width: 800px;
     padding: 10px;
     justify-content: center;
 }
@@ -16,10 +20,7 @@
 }
 
 .image-holder{
-    width: 110%;
-    height: 500px;
-    margin: auto;
-    padding: 10px;
+    height: auto;
     justify-content: center;
 }
 
@@ -39,6 +40,23 @@ img {
 
 .caption{
     justify-content: right;
+}
+@media only screen and (width < 815px) {
+    .textHolder {
+        width: 600px;
+    }
+}
+
+@media only screen and (width < 600px) {
+    .textHolder {
+        width: 400px;
+    }
+}
+
+@media only screen and (width < 400) {
+    .textHolder {
+        width: 350px;
+    }
 }
 
 

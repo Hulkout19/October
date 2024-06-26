@@ -2,18 +2,8 @@
     <div class="menu-toggler" (click)="toggleMenu()"><mat-icon>list</mat-icon></div>
     <div class="menu" *ngIf="isMenuOpened">
         <div class="menu-item" (click)="toggleMenu()">
-            <a mat-button routerLink="/experience">
-            Experience
-            </a>
-        </div>
-        <div class="menu-item" (click)="toggleMenu()">
-            <a mat-button routerLink="/profile">
-            profile
-            </a>
-        </div>
-        <div class="menu-item" (click)="toggleMenu()">
             <a mat-button routerLink="/">
-            home
+            Home
             </a>
         </div>
         <div class="menu-item" (click)="toggleMenu()">
@@ -22,13 +12,28 @@
             </a>
         </div>
         <div class="menu-item" (click)="toggleMenu()">
-            <a mat-button routerLink="/profile">
-            profile
+            <a mat-button routerLink="/story-card">
+            Stories
             </a>
         </div>
         <div class="menu-item" (click)="toggleMenu()">
-            <a mat-button routerLink="/">
-            home
+            <a mat-button routerLink="/about">
+            About
+            </a>
+        </div>
+        <div class="menu-item" (click)="toggleMenu()">
+            <a mat-button routerLink="/countact">
+            Contact
+            </a>
+        </div>
+        <div class="menu-item" (click)="toggleMenu()">
+            <a mat-button routerLink="/status">
+            Status
+            </a>
+        </div>
+        <div class="menu-item" (click)="toggleMenu()">
+            <a mat-button routerLink="/profile">
+            Profile
             </a>
         </div>
     </div>

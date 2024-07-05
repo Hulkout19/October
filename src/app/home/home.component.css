@@ -4,6 +4,8 @@
 #ver{
     display: none;
 }
+
+
 body {
     width: auto;
     text-align: center;
@@ -17,10 +19,8 @@ img{
     border-radius: 2%;
 }
 
-th, td{
-    margin-left: 100px;
-    padding: 10px 10px 10px 30px;
-
+#center{
+    justify-content: center;
 }
 
 #child2{

@@ -40,3 +40,19 @@ img {
     justify-content: right;
 }
 
+@media only screen and (width <= 430px) {
+    .textHolder {
+        width: 350px;
+    }
+
+    .story-title{
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    .image-holder{
+        height: auto;
+        justify-content: center;
+    }
+}
+

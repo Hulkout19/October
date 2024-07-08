@@ -31,57 +31,43 @@ export class HomeComponent {
       loop: false,
       typeSpeed: 80,
       deleteSpeed: 80,
-      typeColor: 'red'
+      typeColor: 'grey'
     })
-    const target2 = document.querySelector('.tw');
-
-    const writer2 = new Typewriter(target2, {
-      loop: false,
-      typeSpeed: 80,
-      deleteSpeed: 80,
-      typeColor: 'red'
-    })
+    
 
     
     writer
-      .type('Hi! ')
+      .type('Sven Broman')
       .rest(500)
-      .type('My name is Sven Broman!')
-      .rest(5000)
+      .type(' - Software Engineer')
       .start()
 
-    writer2
-      .rest(5000)
-      .type('Some of my skills include: ')
-      .rest(2500)
-      .type('.net')
-      .rest(1000)
-      .changeOps({ deleteSpeed: 80 })
-      .remove(4)
-      .type('sql')
-      .rest(1000)
-      .remove(3)
-      .type('python')
-      .rest(500)
-      .remove(6)
-      .type('c#')
-      .rest(500)
-      .remove(2)
-      .type('Assembly')
-      .rest(500)
-      .remove(8)
-      .clear()
-      .type('Check out my website!')
-      .rest(1000)
-      .clear()
-      .type('Go to the contact page to find ways to get in touch!')
-      .start()
-    
-   
-
-
-
-     
+    // writer2
+    //   .rest(5000)
+    //   .type('Some of my skills include: ')
+    //   .rest(2500)
+    //   .type('.net')
+    //   .rest(1000)
+    //   .changeOps({ deleteSpeed: 80 })
+    //   .remove(4)
+    //   .type('sql')
+    //   .rest(1000)
+    //   .remove(3)
+    //   .type('python')
+    //   .rest(500)
+    //   .remove(6)
+    //   .type('c#')
+    //   .rest(500)
+    //   .remove(2)
+    //   .type('Assembly')
+    //   .rest(500)
+    //   .remove(8)
+    //   .clear()
+    //   .type('Check out my website!')
+    //   .rest(1000)
+    //   .clear()
+    //   .type('Go to the contact page to find ways to get in touch!')
+    //   .start()     
   }
 
   getUserList()

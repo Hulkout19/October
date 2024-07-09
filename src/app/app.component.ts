@@ -4,6 +4,7 @@ import {UsersService} from './users.service';
 import { Stories } from 'src/stories';
 
 const data = [];
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

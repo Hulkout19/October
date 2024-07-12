@@ -1,0 +1,22 @@
+<div class="form">
+
+
+    <h2 class="registration">registration</h2>
+
+    <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
+
+    <label for="fname">first name</label>
+
+    <input type="text" id="fname" placeholder="first name" formControlName="firstName">
+
+    <label for="lname">last name</label>
+
+    <input type="text" id="lname" placeholder="last name" formControlName="lastName">
+
+    <label for="email">email</label>
+
+    <input type="text" id="email" placeholder="email" formControlName="email">
+
+    <input type="submit" value="submit" id="btn">
+    </form>
+</div>

@@ -26,7 +26,13 @@ mat-toolbar{
   .dropdown {
     position: relative;
     display: block;
+    /* transition: transform .7s ease-in-out; */
   }
+  
+  /* .dropdown:click {
+      transform: rotateY(180deg);
+  } */
+  
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {

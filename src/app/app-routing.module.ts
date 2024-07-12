@@ -14,6 +14,7 @@ import { StoryCardComponent } from './story-card/story-card.component';
 import { StatusComponent } from './status/status.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { StoriesListComponent } from './stories-list/stories-list.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
   {
@@ -67,6 +68,10 @@ const routes: Routes = [
   {
     path: 'gallery',
     component: GalleryComponent
+  },
+  {
+    path: 'blog',
+    component: BlogComponent
   }
 
 ];

@@ -8,7 +8,14 @@
     width: 25px;
     background: #4050b5;
     margin-left: -17px;
-    border-radius: 10px;
+    border-radius: 50px;
+
+    transition: transform .7s ease-in-out;
+}
+
+.menu-toggler:hover{
+    transform: rotateZ(360deg);
+    transform-origin: center;
 }
 
 .menu { 

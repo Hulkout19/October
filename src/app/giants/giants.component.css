@@ -59,11 +59,17 @@ img {
     }
 }
 
-@media only screen and (width < 400) {
+@media only screen and (width <= 430px) {
     .textHolder {
         width: 350px;
     }
+
+    .story-title{
+        font-size: 25px;
+        font-weight: 200;
+    }
 }
+
 
 
 

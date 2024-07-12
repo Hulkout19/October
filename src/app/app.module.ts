@@ -50,7 +50,8 @@ import {MatGridListModule} from '@angular/material';
 import { GalleryComponent } from './gallery/gallery.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NewToolbarComponent } from './new-toolbar/new-toolbar.component';
-import { ClickOutsideDirective } from './directivesFolder/click-outside.directive'
+import { ClickOutsideDirective } from './directivesFolder/click-outside.directive';
+import { BlogComponent } from './blog/blog.component'
 
 
 
@@ -73,7 +74,8 @@ import { ClickOutsideDirective } from './directivesFolder/click-outside.directiv
     GalleryComponent,
     NavBarComponent,
     NewToolbarComponent,
-    ClickOutsideDirective
+    ClickOutsideDirective,
+    BlogComponent
   ],
   imports: [
     BrowserAnimationsModule,

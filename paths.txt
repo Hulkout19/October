@@ -1,4 +1,11 @@
 Subsequent Deploys:
 
+
+GH-Pages:
 ng build --base-href https://hulkout19.github.io/October/
 ngh --dir=dist/red-october
+
+Hostinger:
+ng build
+
+move files from dist folder into file management in Hostinger

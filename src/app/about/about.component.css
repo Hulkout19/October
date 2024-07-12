@@ -1,11 +1,196 @@
+#greeting{
+    display: block;
+    text-align: left;
+    margin: 300px;
+    font-size: 50px;
+}
+
+#hor {
+    display: block;
+    text-align: center;
+}
+#ver{
+    display: none;
+}
+
+
 body {
     width: auto;
-    text-align: center;
+    /* text-align: center; */
+    z-index: -1;
 }
 
 img{
-    width: 650px;
-    height: 500px;
+    width: 350px;
+    height: 600px;
     margin-left: 20px;
     border-radius: 2%;
+}
+/* fade in text */
+@keyframes fade-inout{
+    100%{ opacity: 1;}
+    0%{ opacity: 0;}
+}
+
+#center{
+    
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
+    width: 750px;
+    display: block;
+}
+
+#center-p{
+    font-size: 20px;
+    font-weight: 300;
+    animation-delay: 1s;
+    animation: fade-inout 10s;
+    
+}
+/* fade in text */
+
+#child2{
+    width: 300px;
+}
+
+/* For creating the typing out text */
+.typewriter{
+    margin-top: 150px;
+    margin-left: 150px;
+    display: block;
+    text-align: left
+
+}
+
+.introP{
+    font-size: 50px;
+    font-weight: 200;
+    
+}
+
+
+.Languages{
+    background-color: aqua;
+    width: auto;
+    height: 550px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: gray;
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    transition: transform .7s ease-in-out;
+}
+
+.logo:hover {
+    transform: rotateY(180deg);
+}
+
+.python-logo{
+    width: 100px;
+    height: 100px;
+}
+
+.alt-heading{
+    display: none;
+}
+
+#prayer{
+    display: inline-block;
+    margin: 200px;
+}
+@media only screen and (width <= 600px) {
+    #hor{
+        display: none;
+    }
+    #ver{
+        display: block;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .introP{
+        font-size: 50px;
+        font-weight: 200;
+        
+    }
+
+    #center{
+    
+        justify-content: center;
+        margin: auto;
+        margin-top: 150px;
+        width: 350px;
+        display: flex;
+    }
+
+    .title-name{
+        margin-top: 100px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+}
+
+@media only screen and (width <= 431px) {
+    
+    body {
+        text-align: center;
+    }
+
+    .heading{
+        display: none;
+    }
+    .alt-heading{
+        display: block;
+    }
+
+    .title-name-alt{
+        text-align: center;
+        margin-top: 25px;
+        font-size: 25px;
+        font-weight: 200;
+        justify-content: center;
+        color: teal;
+    }
+
+    .heading-hyphen{
+        margin-top: 25px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    #center{
+    
+        justify-content: center;
+        margin: auto;
+        
+        width: 350px;
+        display: flex;
+    }
+
+    .title-name{
+        margin-top: 100px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    #center-p{
+        font-size: 18px;
+    }
 }

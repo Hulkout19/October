@@ -9,3 +9,32 @@ Hostinger:
 ng build
 
 move files from dist folder into file management in Hostinger
+
+
+
+https://youtu.be/-82163sG1mM?si=ijHLmBgRksuPjvpe good video, but # in url
+
+
+
+
+dont lose these you fool:
+https://github.com/coreui/coreui-free-angular-admin-template/issues/51 #this one had the hta access crap
+
+https://github.com/angular/angular/issues/26744
+
+https://ndreznotanto.medium.com/remove-hash-at-url-angular-and-still-be-able-to-refresh-and-not-getting-404-not-found-970312a6e828
+
+https://www.infinetsoft.com/Post/When-reload-the-page-I-got-404-error-for-angular-10/3084
+
+https://learnsmartcoding.com/angular/solving-angular-app-routing-issue-linux-server-apache/
+
+https://youtu.be/-82163sG1mM?si=62Gq_n66eVkfrtAH
+
+
+HTA Access:
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]

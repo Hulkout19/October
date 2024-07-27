@@ -1,7 +1,10 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {forwardRef, NgModule} from '@angular/core';
 
-import {AppRoutingModule} from './app-routing.module';
+import {HashLocationStrategy,LocationStrategy, PathLocationStrategy} from '@angular/common'
+
+
+import {AppRoutingModule, routes} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {MatMenuModule} from '@angular/material/menu';
@@ -52,6 +55,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NewToolbarComponent } from './new-toolbar/new-toolbar.component';
 import { ClickOutsideDirective } from './directivesFolder/click-outside.directive';
 import { BlogComponent } from './blog/blog.component'
+import { RouterModule } from '@angular/router';
+
 
 
 
@@ -105,9 +110,16 @@ import { BlogComponent } from './blog/blog.component'
     MatStepperModule,
     FormsModule,
     ReactiveFormsModule,
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'enabled',
+      useHash: false
+    })
+    
+    
 
   ],
-  providers: [],
+  providers: [{provide:LocationStrategy, useClass:PathLocationStrategy}],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

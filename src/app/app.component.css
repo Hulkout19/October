@@ -8,6 +8,8 @@
 
 } 
 
+
+
 mat-toolbar{
   width: 100%;
 }
@@ -20,8 +22,8 @@ mat-toolbar{
   
   app-footer{
     
+    overflow-y: hidden;
     width: 100%;
-       
   } 
 
 

@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Outfit';
+
+}
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    animation-delay: 1s;
+    animation: fade-inout 1s;
+}
+
+
+/* fade in text */
+@keyframes fade-inout{
+    100%{ opacity: 1;}
+    0%{ opacity: 0;}
+}
+
+.contact-left{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.contact-left-title h2{
+    font-weight: 200;
+    color: #625547;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+
+.contact-left-title hr{
+    display: none;
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #625547;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-weight: 500;
+    color: #667;
+    border-radius: 50px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid rgb(95, 158, 160, 1);
+}
+
+.contact-inputs:hover{
+    border: 2px solid rgb(95, 158, 160, 1);
+
+}
+
+.contact-inputs::placeholder{
+    color: #a9a9a9;
+    font-size: 13px;
+
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    margin-left: 150px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #fa6d86;
+    cursor: pointer;
+    -webkit-transition: background 1000ms linear;
+    -ms-transition: background 1000ms linear;
+    transition: background 1000ms linear;
+}
+
+
+.contact-left button:hover{
+    background: rgb(95, 158, 160);
+    
+}
+@keyframes example {
+    from {background: linear-gradient(#fa6d86, rgb(95, 158, 160, 1))}
+    to {background: linear-gradient(rgb(95, 158, 160, 1),#fa6d86)}
+  }
+
+
+
+@media only screen and (height <= 500px){
+    .contact-container{
+        padding-top: 250px;
+    }
+    .contact-inputs{
+        width: 330px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        color: #667;
+        border-radius: 50px;
+    }
+}
+
+@media only screen and (width <= 500px) {
+    .contact-inputs{
+        width: 330px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding-left: 25px;
+        font-weight: 500;
+        color: #667;
+        border-radius: 50px;
+    }
+
+    .contact-left button{
+        display: flex;
+        align-items: center;
+        padding: 15px 30px;
+        margin-left: 100px;
+        color: #fff;
+        gap: 10px;
+        border: none;
+        border-radius: 50px;
+        background: linear-gradient(270deg, #77665b,#fa6d86);
+        cursor: pointer;
+    }
+}

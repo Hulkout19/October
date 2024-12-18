@@ -97,9 +97,12 @@ h2{
 }
 
 .section{
-    height: 900px;
+    height: 1400px;
     background-color: rgb(95, 158, 160, 1);
     text-align: center;
+}
+.comingSoon{
+    margin: 135px;
 }
 
 .card-holder{
@@ -121,10 +124,12 @@ h2{
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-    
+    -webkit-tap-highlight-color: transparent;
 }
 
-
+a{
+    width: 10px;
+}
 
 .container-site:hover{
     border-style: solid;
@@ -158,6 +163,72 @@ h2{
         
     }
 
+
+    .title-name{
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    .gradient h1{
+        color: grey;
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .container-site{
+        text-align: center;
+        width: 400px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(245, 241, 241);
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .container-site img{
+        width: 400px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+
+    .comingSoon{
+        margin: 70px;
+    }
+
+    .heading{
+        display: none;
+    }
+    .alt-heading{
+        display: block;
+    }
+
+    .title-name-alt{
+        text-align: center;
+        margin-top: 25px;
+        font-size: 25px;
+        font-weight: 200;
+        justify-content: center;
+        color: teal;
+    }
+
+    .heading-hyphen{
+        margin-top: 25px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
     #center{
     
         justify-content: center;
@@ -169,13 +240,51 @@ h2{
 
     .title-name{
         margin-top: 100px;
+        font-size: 20px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    #center-p{
+        font-size: 18px;
+    }
+
+    .title-name{
+        margin-top: 150px;
         font-size: 30px;
         font-weight: 200;
         justify-content: left;
         color: teal;
     }
-}
 
+    .gradient h1{
+        color: grey;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .container-site{
+        text-align: center;
+        width: 300px;
+        height:300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(245, 241, 241);
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        
+    }
+
+    .container-site img{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .card-holder a{
+        -webkit-tap-highlight-color: transparent;
+    }
+}
 @media only screen and (width <= 431px) {
     
     body {
@@ -217,7 +326,7 @@ h2{
 
     .title-name{
         margin-top: 100px;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 200;
         justify-content: left;
         color: teal;
@@ -225,5 +334,44 @@ h2{
 
     #center-p{
         font-size: 18px;
+    }
+
+    .title-name{
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    .gradient h1{
+        color: grey;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .container-site{
+        text-align: center;
+        width: 300px;
+        height:300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(245, 241, 241);
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        
+    }
+
+    .container-site img{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .card-holder a{
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .comingSoon{
+        margin: 50px;
     }
 }

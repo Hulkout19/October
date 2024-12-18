@@ -87,7 +87,8 @@ body{
     display: flex;
     align-items: center;
     padding: 15px 30px;
-    margin-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
     color: #fff;
     gap: 10px;
     border: none;
@@ -150,5 +151,101 @@ body{
         border-radius: 50px;
         background: linear-gradient(270deg, #77665b,#fa6d86);
         cursor: pointer;
+    }
+    .contact-left-title h2{
+        font-weight: 200;
+        color: #625547;
+        font-size: 40px;
+        margin-bottom: 25px;
+        margin-left: 50px;
+    }
+
+
+    
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+
+    .heading{
+        display: none;
+    }
+    .alt-heading{
+        display: block;
+    }
+
+    .title-name-alt{
+        text-align: center;
+        margin-top: 25px;
+        font-size: 25px;
+        font-weight: 200;
+        justify-content: center;
+        color: teal;
+    }
+
+    .heading-hyphen{
+        margin-top: 25px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    #center{
+    
+        justify-content: center;
+        margin: auto;
+        margin-top: 150px;
+        width: 350px;
+        display: flex;
+    }
+
+    .title-name{
+        margin-top: 100px;
+        font-size: 20px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    #center-p{
+        font-size: 18px;
+    }
+
+    .title-name{
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    .gradient h1{
+        color: grey;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .container-site{
+        text-align: center;
+        width: 300px;
+        height:300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(245, 241, 241);
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        
+    }
+
+    .container-site img{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .card-holder a{
+        -webkit-tap-highlight-color: transparent;
     }
 }

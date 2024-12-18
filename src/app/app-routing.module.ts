@@ -15,6 +15,7 @@ import { StatusComponent } from './status/status.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { StoriesListComponent } from './stories-list/stories-list.component';
 import { BlogComponent } from './blog/blog.component';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 
 export const routes: Routes = [
   {
@@ -25,53 +26,58 @@ export const routes: Routes = [
     path: 'contact',
     component: ContactComponent
   },
+  // {
+  //   path: 'about',
+  //   component: AboutComponent
+  // },
+  // {
+  //   path: 'profile',
+  //   component: ProfileComponent
+  // },
+  // {
+  //   path: 'architect',
+  //   component: ArchitectComponent
+  // },
+  // {
+  //   path: 'giants',
+  //   component: GiantsComponent
+  // },
+  // {
+  //   path: 'agent',
+  //   component: AgentComponent
+  // },
+  // {
+  //   path: 'testText',
+  //   component: TestTextComponent
+  // },
+  // {
+  //   path: 'experience',
+  //   component: ExperienceComponent
+  // },
+  // {
+  //   path: 'story-card',
+  //   component: StoryCardComponent
+  // },
+  // {
+  //   path: 'stories-list',
+  //   component: StoriesListComponent
+  // },
+  // {
+  //   path: 'status',
+  //   component: StatusComponent
+  // },
+  // {
+  //   path: 'gallery',
+  //   component: GalleryComponent
+  // },
+  // {
+  //   path: 'blog',
+  //   component: BlogComponent
+  // },
+  
   {
-    path: 'about',
-    component: AboutComponent
-  },
-  {
-    path: 'profile',
-    component: ProfileComponent
-  },
-  {
-    path: 'architect',
-    component: ArchitectComponent
-  },
-  {
-    path: 'giants',
-    component: GiantsComponent
-  },
-  {
-    path: 'agent',
-    component: AgentComponent
-  },
-  {
-    path: 'testText',
-    component: TestTextComponent
-  },
-  {
-    path: 'experience',
-    component: ExperienceComponent
-  },
-  {
-    path: 'story-card',
-    component: StoryCardComponent
-  },
-  {
-    path: 'stories-list',
-    component: StoriesListComponent
-  },
-  {
-    path: 'status',
-    component: StatusComponent
-  },
-  {
-    path: 'gallery',
-    component: GalleryComponent
-  },
-  {
-    path: 'blog',
-    component: BlogComponent
+    path: 'coming',
+    component: ComingSoonComponent
   }
 
 ];

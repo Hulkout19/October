@@ -12,44 +12,9 @@ export class ContactComponent {
 
   }
 
-  // preventEmptyFormSubmission(event: Event): void {
-  //   Prevent the default form submission
-  //   event.preventDefault();
-  
-  //   Get the form element from the event
-  //   const form = event.target as HTMLFormElement;
-  
-  //   Check if all input fields have values
-  //   const inputs = form.querySelectorAll("input, textarea, select");
-  //   let isEmpty = false;
-  
-  //   inputs.forEach((input) => {
-  //     Trim whitespace for text inputs
-  //     const value = input instanceof HTMLInputElement || input instanceof HTMLTextAreaElement
-  //       ? input.value.trim()
-  //       : (input as HTMLSelectElement).value;
-  
-  //     if (!value) {
-  //       isEmpty = true;
-  //       input.classList.add("error"); // Optional: Add error class to empty inputs
-  //     } else {
-  //       input.classList.remove("error"); // Remove error class if input is filled
-  //     }
-  //   });
-  
-  //   if (isEmpty) {
-  //     alert("Please fill out all required fields before submitting.");
-  //     return; // Stop the submission
-  //   }
-  
-  //   If no fields are empty, submit the form
-  //   form.submit();
-  // }
-  
-
    onSubmit(data: {access_key: string, name: string, email: string, message: string})
   {
-    if(data.name == null || data.email == null || data.message == null || data.name.trim() == ""){
+    if(data.name == null || data.email == null || data.message == null || data.name.trim() == "" || data.email.trim() == "" || data.message.trim() == ""){
       alert("Please fill out all required fields before submitting.");
       return;
     }

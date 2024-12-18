@@ -57,6 +57,7 @@ import { ClickOutsideDirective } from './directivesFolder/click-outside.directiv
 import { BlogComponent } from './blog/blog.component'
 import { RouterModule } from '@angular/router';
 import { SwellToolbarComponent } from './swell-toolbar/swell-toolbar.component';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 
 
 
@@ -82,7 +83,8 @@ import { SwellToolbarComponent } from './swell-toolbar/swell-toolbar.component';
     NewToolbarComponent,
     ClickOutsideDirective,
     BlogComponent,
-    SwellToolbarComponent
+    SwellToolbarComponent,
+    ComingSoonComponent
   ],
   imports: [
     BrowserAnimationsModule,

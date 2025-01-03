@@ -58,6 +58,7 @@ import { BlogComponent } from './blog/blog.component'
 import { RouterModule } from '@angular/router';
 import { SwellToolbarComponent } from './swell-toolbar/swell-toolbar.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { PayStoreComponent } from './pay-store/pay-store.component';
 
 
 
@@ -84,7 +85,8 @@ import { ComingSoonComponent } from './coming-soon/coming-soon.component';
     ClickOutsideDirective,
     BlogComponent,
     SwellToolbarComponent,
-    ComingSoonComponent
+    ComingSoonComponent,
+    PayStoreComponent
   ],
   imports: [
     BrowserAnimationsModule,

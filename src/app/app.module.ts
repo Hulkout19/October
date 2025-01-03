@@ -56,6 +56,9 @@ import { NewToolbarComponent } from './new-toolbar/new-toolbar.component';
 import { ClickOutsideDirective } from './directivesFolder/click-outside.directive';
 import { BlogComponent } from './blog/blog.component'
 import { RouterModule } from '@angular/router';
+import { SwellToolbarComponent } from './swell-toolbar/swell-toolbar.component';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { PayStoreComponent } from './pay-store/pay-store.component';
 
 
 
@@ -80,7 +83,10 @@ import { RouterModule } from '@angular/router';
     NavBarComponent,
     NewToolbarComponent,
     ClickOutsideDirective,
-    BlogComponent
+    BlogComponent,
+    SwellToolbarComponent,
+    ComingSoonComponent,
+    PayStoreComponent
   ],
   imports: [
     BrowserAnimationsModule,

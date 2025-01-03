@@ -1,12 +1,14 @@
 .entirescreen{
     position: relative;
     min-height: 100vh;
-    height: 100%;
+    height: -webkit-fill-avilable;
     width: 100%;
     overflow-x: hidden;
     background-color: rgb(245, 241, 241);
-
+    
 } 
+
+
 
 mat-toolbar{
   width: 100%;
@@ -20,8 +22,8 @@ mat-toolbar{
   
   app-footer{
     
+    overflow-y: hidden;
     width: 100%;
-       
   } 
 
 

@@ -1,44 +1,21 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 <body>
-    <table>
-        <tr>
-            <td>
-                <h2>
-                    Connect with me below!
-                </h2>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>
-                    Connect with me on LinkedIn: 
-                
-                <a href="https://www.linkedin.com/in/sven-broman-53856b1b6">
-                    LinkedIn
-                </a>
-            </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>
-                    Check out my projects hosted on Github: 
-                    <a href="https://github.com/Hulkout19">
-                        Github
-                    </a>
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>
-                    Go follow me on Twitter: 
-                    <a href="https://twitter.com/BromanSven">
-                        Twitter
-                    </a>
-                </p>
-            </td>
-        </tr>
+    <div class="contact-container">
+        <form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value); userPost.resetForm()"  class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+
+            </div>
+            <input type="text" name="name" placeholder="Your Name:" class="contact-inputs" required ngModel>
+            <input type="email" name="email" placeholder="Your email so I can get back to you:" class="contact-inputs" required ngModel>
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <textarea name="message" placeholder="Tell me what you are looking for! Ask about my rates for web development, questions about my website, or my favorite movie!" class="contact-inputs" required ngModel></textarea>
+            <button type="submit">Submit </button> 
+        </form>
         
-        
-    </table>
+
+    </div>
 </body>

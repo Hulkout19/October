@@ -19,13 +19,6 @@ body {
     /* text-align: center; */
     z-index: -1;
 }
-
-img{
-    width: 350px;
-    height: 600px;
-    margin-left: 20px;
-    border-radius: 2%;
-}
 /* fade in text */
 @keyframes fade-inout{
     100%{ opacity: 1;}
@@ -39,14 +32,15 @@ img{
     margin-top: 150px;
     width: 750px;
     display: flex;
+    height: 450px;
 }
 
 #center-p{
     font-size: 20px;
     font-weight: 300;
     animation-delay: 1s;
-    animation: fade-inout 10s;
-    
+    animation: fade-inout 5s;
+    color: grey;
     
 }
 /* fade in text */
@@ -70,38 +64,86 @@ img{
     
 }
 
-
-.Languages{
-    background-color: aqua;
-    width: auto;
-    height: 550px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: gray;
-}
-
 h2{
     margin-top: 10px;
     margin-left: 10px;
 }
 
-.logo{
-    width: 75px;
-    height: 75px;
-    transition: transform .7s ease-in-out;
-}
-
-.logo:hover {
-    transform: rotateY(180deg);
-}
-
-.python-logo{
-    width: 100px;
-    height: 100px;
-}
 
 .alt-heading{
     display: none;
+}
+
+
+
+.gradient{
+    height: 200px;
+    background-image: linear-gradient(rgb(245, 241, 241, 0),rgb(95, 158, 160, 1));
+}
+
+.gradient h1{
+    color: grey;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.gradient-out{
+    height: 200px;
+    background-image: linear-gradient(rgb(95, 158, 160, 1),rgb(245, 241, 241, 0));
+}
+
+.divider{
+    height: 200px;
+}
+
+.section{
+    height: 1400px;
+    background-color: rgb(95, 158, 160, 1);
+    text-align: center;
+}
+.comingSoon{
+    margin: 135px;
+}
+
+.card-holder{
+    height: 500px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.container-site{
+    text-align: center;
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 241, 241);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    -webkit-tap-highlight-color: transparent;
+}
+
+a{
+    width: 10px;
+}
+
+.container-site:hover{
+    border-style: solid;
+    border-color: rgb(95, 158, 160, 1);
+}
+.container-site img{
+    width: 450px;
+    border-radius: 10px;
+}
+
+.container-site .ieee{
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
 }
 @media only screen and (width <= 600px) {
     #hor{
@@ -121,6 +163,72 @@ h2{
         
     }
 
+
+    .title-name{
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    .gradient h1{
+        color: grey;
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .container-site{
+        text-align: center;
+        width: 400px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(245, 241, 241);
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .container-site img{
+        width: 400px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 767px) {
+    body {
+        text-align: center;
+    }
+
+    .comingSoon{
+        margin: 70px;
+    }
+
+    .heading{
+        display: none;
+    }
+    .alt-heading{
+        display: block;
+    }
+
+    .title-name-alt{
+        text-align: center;
+        margin-top: 25px;
+        font-size: 25px;
+        font-weight: 200;
+        justify-content: center;
+        color: teal;
+    }
+
+    .heading-hyphen{
+        margin-top: 25px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
     #center{
     
         justify-content: center;
@@ -132,13 +240,51 @@ h2{
 
     .title-name{
         margin-top: 100px;
+        font-size: 20px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    #center-p{
+        font-size: 18px;
+    }
+
+    .title-name{
+        margin-top: 150px;
         font-size: 30px;
         font-weight: 200;
         justify-content: left;
         color: teal;
     }
-}
 
+    .gradient h1{
+        color: grey;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .container-site{
+        text-align: center;
+        width: 300px;
+        height:300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(245, 241, 241);
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        
+    }
+
+    .container-site img{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .card-holder a{
+        -webkit-tap-highlight-color: transparent;
+    }
+}
 @media only screen and (width <= 431px) {
     
     body {
@@ -180,7 +326,7 @@ h2{
 
     .title-name{
         margin-top: 100px;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 200;
         justify-content: left;
         color: teal;
@@ -188,5 +334,44 @@ h2{
 
     #center-p{
         font-size: 18px;
+    }
+
+    .title-name{
+        margin-top: 150px;
+        font-size: 30px;
+        font-weight: 200;
+        justify-content: left;
+        color: teal;
+    }
+
+    .gradient h1{
+        color: grey;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .container-site{
+        text-align: center;
+        width: 300px;
+        height:300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(245, 241, 241);
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+        
+    }
+
+    .container-site img{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .card-holder a{
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .comingSoon{
+        margin: 50px;
     }
 }

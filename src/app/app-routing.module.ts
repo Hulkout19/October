@@ -16,6 +16,7 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { StoriesListComponent } from './stories-list/stories-list.component';
 import { BlogComponent } from './blog/blog.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { PayStoreComponent } from './pay-store/pay-store.component';
 
 export const routes: Routes = [
   {
@@ -25,6 +26,10 @@ export const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent
+  },
+  {
+    path: 'pay',
+    component: PayStoreComponent
   },
   // {
   //   path: 'about',

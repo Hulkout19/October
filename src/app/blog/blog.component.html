@@ -1,22 +1,9 @@
-<div class="form">
+<h1>{{title}}</h1>
+<form #usersForm = "ngForm" (ngSubmit)="getUserFormData(usersForm.value)">
+    <input type="text" ngModel name="author" placeholder="Enter Name">
+    <br> <br>
+    <input type="text" ngModel name="body" placeholder="Enter email">
+    <br> <br>
 
-
-    <h2 class="registration">registration</h2>
-
-    <form [formGroup]="reactiveForm" (ngSubmit)="onSubmit()">
-
-    <label for="fname">first name</label>
-
-    <input type="text" id="fname" placeholder="first name" formControlName="firstName">
-
-    <label for="lname">last name</label>
-
-    <input type="text" id="lname" placeholder="last name" formControlName="lastName">
-
-    <label for="email">email</label>
-
-    <input type="text" id="email" placeholder="email" formControlName="email">
-
-    <input type="submit" value="submit" id="btn">
-    </form>
-</div>
+    <button>Add new user</button>
+</form>

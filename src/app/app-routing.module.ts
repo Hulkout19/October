@@ -75,10 +75,10 @@ export const routes: Routes = [
   //   path: 'gallery',
   //   component: GalleryComponent
   // },
-  // {
-  //   path: 'blog',
-  //   component: BlogComponent
-  // },
+  {
+     path: 'blog',
+     component: BlogComponent
+  },
   
   {
     path: 'coming',

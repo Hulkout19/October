@@ -8,10 +8,14 @@ export class UsersService {
 
   constructor(private http:HttpClient) 
   {}
-    getData()
-    {
-      let url = "https://jsonplaceholder.typicode.com/todos/";
-      return this.http.get(url);
-    }
+  url = "https://blogapi-6dx9.onrender.com/";
+  getData()
+  {
+    
+    return this.http.get(this.url);
+  }
+  saveData(data: any){
+    return this.http.post(this.url, data);
+  }
   
 }
